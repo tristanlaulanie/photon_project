@@ -65,7 +65,7 @@
   /* END HEADER */
 
   main {
-    height: 86vh;
+    height: 100vh;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -110,7 +110,6 @@
     align-items: center;
     justify-content: center;
     gap: 1.3em;
-
     }
 
   .icons_duo {
@@ -166,8 +165,10 @@
   }
 
   .text_main_section {
+    text-align: left;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 1.5em;
   }
 
